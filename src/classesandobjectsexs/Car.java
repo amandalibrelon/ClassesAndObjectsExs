@@ -16,6 +16,8 @@ public class Car {
     
     public void drive (double direction) {
         System.out.println(String.format("The %s %s id driving at %f degrees", colour, make, direction));
+        System.out.printf("The %s %s id driving at %f degrees", colour, make, direction);
+        
     }
     
     
