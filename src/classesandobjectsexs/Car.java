@@ -14,6 +14,10 @@ public class Car {
     int numWheels;
     String colour;
     
+    public void drive (double direction) {
+        System.out.println(String.format("The %s %s id driving at %f degrees", colour, make, direction));
+    }
+    
     
     
 }
