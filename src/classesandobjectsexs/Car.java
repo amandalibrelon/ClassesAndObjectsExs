@@ -20,9 +20,6 @@ public class Car {
         
     }
     
-    public void drive (String direction) {
-        System.out.println("The " + colour + " " + make + " is driving " + direction);
-    }
- 
+    
     
 }
